@@ -1,0 +1,84 @@
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\microsoft.identitymodel.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\bin\Release\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\obj\Release\QuickCRM.csproj.AssemblyReference.cache
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\obj\Release\QuickCRM.csproj.CoreCompileInputs.cache
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\obj\Release\QuickCRM.csproj.CopyComplete
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\obj\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\repos\ClassLibrary1\ClassLibrary1\obj\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\microsoft.identitymodel.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.AssemblyReference.cache
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CoreCompileInputs.cache
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CopyComplete
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\repos\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\microsoft.identitymodel.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.AssemblyReference.cache
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CoreCompileInputs.cache
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CopyComplete
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\dev py\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.AssemblyReference.cache
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CoreCompileInputs.cache
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\QuickCRMModifier.pdb
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\microsoft.identitymodel.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.dll
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Sdk.Workflow.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\bin\Release\Microsoft.Xrm.Tooling.Connector.xml
+C:\Users\KlychkovMD\source\dev_py\ORIO\BASES\net_lib\QuickCRMModifier\QuickCRMModifier\obj\Release\QuickCRM.csproj.CopyComplete
