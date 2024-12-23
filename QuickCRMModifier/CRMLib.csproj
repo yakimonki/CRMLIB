@@ -80,6 +80,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeletePhones.cs" />
     <Compile Include="EnvVars.cs" />
     <Compile Include="Logging.cs" />
     <Compile Include="TerminalBar.cs" />

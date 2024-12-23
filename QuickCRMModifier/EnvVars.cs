@@ -7,7 +7,7 @@ namespace CRMLib
     {
         public static string LogsPath
         {
-            get { return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logging", "logs.txt"); }
+            get { return Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location).ToString() + "\\logging\\logs.txt"; }
         }
     }
 

@@ -24,7 +24,9 @@ namespace CRMLib
 
         public static void Main(Dictionary<string, string> campaigns_parametrs, List<Dictionary<string, string>> phonecalls, Dictionary<string, string> staicfields)
         {
-            Guid campaign_id = CreateCampaign(campaigns_parametrs);
+            //Guid campaign_id = CreateCampaign(campaigns_parametrs);
+            Guid campaign_id = CreateCampaignExistingMarketingList(campaigns_parametrs);
+
             if (campaign_id.Equals(Guid.Empty))
             {
                 Console.WriteLine($"Guid is Empty, capmpaign could not be init");
@@ -52,6 +54,8 @@ namespace CRMLib
                     Entity phonecall = new Entity("phonecall");
                     phonecall["regardingobjectid"] = new EntityReference("bulkoperation", campaign_id);
                     phonecall["subject"] = topic;
+
+
                     foreach (KeyValuePair<string, string> pair in subdict)
                     {
                         if (entyty_array.Contains(pair.Key) && !pair.Value.Equals(string.Empty))
@@ -70,25 +74,86 @@ namespace CRMLib
                             }
                             else
                             {
-                                if (pair.Value != "D4BD185E-B2C3-E711-90F2-0050568769C6")
+                                //if (pair.Value != "D4BD185E-B2C3-E711-90F2-0050568769C6")
+                                if (pair.Value != "86145F6F-B198-E911-A84D-005056010A7B")
                                 {
-                                    phonecall[pair.Key] = new EntityReference("systemuser", new Guid("{" + pair.Value + "}"));
+                                    
+                                    phonecall[pair.Key] = new EntityReference("team", new Guid("{" + pair.Value + "}"));
                                 }
                                 else
                                 {
-                                    phonecall[pair.Key] = new EntityReference("team", new Guid("{" + pair.Value + "}"));
+                                    phonecall[pair.Key] = new EntityReference("systemuser", new Guid("{" + pair.Value + "}"));
+                                    //phonecall[pair.Key] = new EntityReference("team", new Guid("{" + pair.Value + "}"));
                                 }
                             }
                         }
                     }
+                    phonecall["gpbl_target_unitcode"] = new OptionSetValue(100000001);
+                    //phonecall["gpbl_target_unitcode"] = 100000001;
 
                     Service.Create(phonecall);
                 }
-                catch {
+                catch (Exception ex)
+                {
 
-                    //Console.WriteLine("Faild on:" + subdict["getcrm_inn"]);
-                    Logger.Main("Faild on: " + subdict["getcrm_inn"], GlobalVars.LogsPath);
+                    //Console.WriteLine("Faild on:" + subdict["getcrm_inn"] + "Err: " + ex);
+                    Logger.Main("Faild on: " + subdict["getcrm_inn"] + "\nErr: " + ex, GlobalVars.LogsPath);
                 }
+            }
+        }
+
+        public static Guid CreateCampaignExistingMarketingList(Dictionary<string, string> parameters)
+        {
+            try
+            {
+                // Проверка готовности сервиса
+                if (!Service.IsReady)
+                {
+                    throw new Exception(Service.LastCrmError);
+                }
+                else
+                {
+                    CreateCampaignsPlusPhonecalls cls = new CreateCampaignsPlusPhonecalls();
+                    Console.WriteLine("Connected to {0}", CRM.Prod);
+
+                    // Использование существующего маркетингового списка
+                    Guid listGuid = new Guid("B56A61D7-3032-EF11-A398-00505601E0D6"); //prod ОДП
+                    //Guid listGuid = new Guid("b1475f5d-08ad-ef11-a30c-00505601a22a"); //preprod База КЦ (Краснодар)-237
+
+                    // Создание звонка
+                    Entity phoneCall = new Entity("phonecall");
+                    phoneCall["subject"] = parameters["topic_name"];
+
+                    // Отправка запроса на создание звонка
+                    Service.Create(phoneCall);
+
+                    // Получение ID текущего пользователя
+                    WhoAmIResponse currentUser = (WhoAmIResponse)Service.Execute(new WhoAmIRequest());
+
+                    // Формирование быстрой кампании
+                    CreateActivitiesListRequest quickCampaignRequest = new CreateActivitiesListRequest()
+                    {
+                        Activity = phoneCall,
+                        ListId = listGuid,
+                        OwnershipOptions = PropagationOwnershipOptions.ListMemberOwner,
+                        Propagate = true,
+                        TemplateId = Guid.Empty,
+                        FriendlyName = parameters["campaign_name"],
+                        Owner = new EntityReference("systemuser", currentUser.UserId),
+                        PostWorkflowEvent = true
+                    };
+
+                    // Выполнение запроса на создание быстрой кампании
+                    CreateActivitiesListResponse quickCampaignResponse = (CreateActivitiesListResponse)Service.Execute(quickCampaignRequest);
+                    Console.WriteLine("Created Quick Campaign with GUID {0}", quickCampaignResponse.BulkOperationId);
+
+                    return quickCampaignResponse.BulkOperationId;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Не удалось установить соединение с CRM.\r\n\r\n{ex.Message}");
+                return Guid.Empty;
             }
         }
 
@@ -133,10 +198,11 @@ namespace CRMLib
                     WhoAmIResponse currentUser = (WhoAmIResponse)Service.Execute(new WhoAmIRequest());
 
                     // Формирование быстрой кампании
+                    Guid? v = listGuid != Guid.Empty ? listGuid : (Guid?)null;
                     CreateActivitiesListRequest quickCampaignRequest = new CreateActivitiesListRequest()
                     {
                         Activity = phoneCall,
-                        ListId = listGuid,
+                        ListId = (Guid)v,
                         OwnershipOptions = PropagationOwnershipOptions.ListMemberOwner,
                         Propagate = true,
                         TemplateId = Guid.Empty,
@@ -144,7 +210,6 @@ namespace CRMLib
                         Owner = new EntityReference("systemuser", currentUser.UserId),
                         PostWorkflowEvent = true
                     };
-
                     // Выполнение запроса на создание быстрой кампании
                     CreateActivitiesListResponse quickCampaignResponse = (CreateActivitiesListResponse)Service.Execute(quickCampaignRequest);
                     Console.WriteLine("Created Quick Campaign with GUID {0}", quickCampaignResponse.BulkOperationId);
